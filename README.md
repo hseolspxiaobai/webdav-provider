@@ -3,9 +3,7 @@ alt="App icon">
 
 # WebDAV Provider [![build](https://github.com/alexbakker/webdav-provider/actions/workflows/build.yaml/badge.svg)](https://github.com/alexbakker/webdav-provider/actions/workflows/build.yaml)
 
-__WebDAV Provider__ is an Android app that can expose WebDAV through Android's
-Storage Access Framework (SAF). This allows you to access your WebDAV storage
-through Android's built-in file explorer, as well as other apps on your device.
+__WebDAV Provider__是一款能够通过安卓存储访问框架（SAF）暴露WebDAV服务的安卓应用。这使您可以通过安卓内置的文件管理器以及设备上的其他应用来访问您的WebDAV存储空间。
 
 [<img height=80 alt="Get it on Google Play"
 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
@@ -22,21 +20,20 @@ src="screenshots/screenshot4.png" width="200">](screenshots/screenshot4.png)
 
 ## Development
 
-This project is automatically tested against a variety of different WebDAV servers. The tests run in an Android emulator and connect to the WebDAV servers running in separate containers on the host machine. 
-
-To spin up the test environment:
+本项目已针对多种不同的WebDAV服务器进行自动化测试。测试在Android模拟器中运行，并连接到宿主机上独立容器中运行的WebDAV服务器。
+启动测试环境的步骤如下：
 
 ```sh
 docker compose --project-directory tests up -d --wait --force-recreate --build --renew-anon-volumes --remove-orphans
 ```
 
-Assuming an Android emulator is running, use the following command to run the tests:
+假设安卓模拟器正在运行，请使用以下命令来运行测试：
 
 ```sh
 ./gradlew connectedCheck
 ```
 
-To shut the test environment down:
+关闭测试环境：
 
 ```sh
 docker compose --project-directory tests down -v
