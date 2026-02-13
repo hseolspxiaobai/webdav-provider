@@ -3,7 +3,7 @@ alt="App icon">
 
 # WebDAV Provider [![build](https://github.com/alexbakker/webdav-provider/actions/workflows/build.yaml/badge.svg)](https://github.com/alexbakker/webdav-provider/actions/workflows/build.yaml)
 
-__WebDAV Provider__是一款能够通过安卓存储访问框架（SAF）暴露WebDAV服务的安卓应用。这使您可以通过安卓内置的文件管理器以及设备上的其他应用来访问您的WebDAV存储空间。
+__WebDAV Provider__ 是一款能够通过安卓存储访问框架（SAF）暴露WebDAV服务的安卓应用。这使您可以通过安卓内置的文件管理器以及设备上的其他应用来访问您的WebDAV存储空间。
 
 [<img height=80 alt="Get it on Google Play"
 src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
