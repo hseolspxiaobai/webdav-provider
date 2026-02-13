@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_label" translatable="false">WebDAV</string>
+    <string name="app_name_release" translatable="false">WebDAV Provider</string>
+    <string name="app_name_debug" translatable="false" tools:ignore="UnusedResources">WebDAV Provider (Debug)</string>
+    <string name="action_about">关于</string>
+    <string name="action_save">保存</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_delete">删除</string>
+    <string name="action_details">详情</string>
+    <string name="action_copy">复制</string>
+
+    <string name="ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="name">名称</string>
+    <string name="url">URL</string>
+    <string name="protocol">协议</string>
+    <string name="verify_certs">验证证书</string>
+    <string name="act_as_local_storage">作为本地存储</string>
+    <string name="section_authentication">身份验证</string>
+    <string name="section_connection_info">连接信息</string>
+    <string name="section_advanced">高级</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="client_certificate">客户端证书</string>
+    <string name="notice_no_client_certificate">未选择证书或未安装证书，请查看：设置 > 安全 > 加密与凭据</string>
+    <string name="notice_http_client_certificate">客户端证书需要HTTPS连接</string>
+
+    <string name="add_account">添加账户</string>
+    <string name="edit_account">编辑账户</string>
+    <string name="empty_account_list">未找到账户</string>
+    <string name="empty_account_list_description">暂无账户显示。点击右下角的加号添加一个。</string>
+    <plurals name="account_selection">
+        <item quantity="one">已选择 %d 个账户</item>
+        <item quantity="other">已选择 %d 个账户</item>
+    </plurals>
+    <string name="about_support">支持</string>
+    <string name="about_support_rate">评分</string>
+    <string name="about_support_rate_description">在Google Play商店留下评价以支持我们</string>
+    <string name="about_author">作者</string>
+    <string name="about_author_roclidev" translatable="false">Rocli Development</string>
+    <string name="about_country_netherlands">荷兰</string>
+    <string name="about_send_email">发送电子邮件</string>
+    <string name="about_license">许可证</string>
+    <string name="about_license_description">WebDAV Provider基于GPLv3许可证</string>
+    <string name="about_third_party_libraries">第三方库</string>
+    <string name="about_third_party_libraries_description">使用的第三方库及其许可证列表</string>
+    <string name="about_github">GitHub</string>
+    <string name="about_github_description">源代码、问题反馈及其他信息</string>
+    <string name="about_changelog">更新日志</string>
+    <string name="about_changelog_description">最新变化</string>
+
+    <string name="about_data_email" translatable="false">support+webdav@rocli.dev</string>
+    <string name="about_data_github" translatable="false">https://github.com/alexbakker/webdav-provider</string>
+    <string name="about_data_author_website" translatable="false">https://rocli.dev</string>
+    <string name="about_data_playstore" translatable="false">https://play.google.com/store/apps/details?id=dev.rocli.android.webdav</string>
+
+    <string name="toast_version_copied">版本号已复制到剪贴板</string>
+
+    <string name="dialog_title_error">错误</string>
+    <string name="dialog_title_discard_changes">放弃更改？</string>
+    <string name="dialog_message_discard_changes">您的更改尚未保存</string>
+    <plurals name="dialog_title_delete_accounts">
+        <item quantity="one">删除账户</item>
+        <item quantity="other">删除账户</item>
+    </plurals>
+    <plurals name="dialog_message_delete_accounts">
+        <item quantity="one">确定要删除 %d 个账户吗？</item>
+        <item quantity="other">确定要删除 %d 个账户吗？</item>
+    </plurals>
+
+    <string name="webdav_testing_connection">正在测试WebDAV连接…</string>
+    <string name="label_max_cache_file_size">要缓存的文件最大大小：</string>
+    <string name="value_max_cache_file_size">%d MB</string>
+
+    <string name="error_field_required">此字段为必填项</string>
+    <string name="error_invalid_url">必须是有效的HTTP/HTTPS URL</string>
+    <string name="error_webdav_connection">无法建立WebDAV连接：%s</string>
+    <string name="error_webdav_connection_dialog">尝试建立WebDAV连接时发生错误</string>
+    <string name="error_list_dir_contents">尝试列出 %1$s 内容时发生错误：\n\n%2$s</string>
+    <string name="error_documentsui">无法启动DocumentsUI</string>
+    <string name="error_documentsui_dialog">尝试在DocumentsUI中打开WebDAV位置时发生错误</string>
+</resources>
